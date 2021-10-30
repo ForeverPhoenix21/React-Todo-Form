@@ -1,0 +1,44 @@
+.todoApp {
+  border: 5px;
+  border-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.todo {
+  background: rgba(236, 243, 243, 0.801);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 50%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.todo-list {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  --primary: hsla(246, 88%, 32%, 0.65);
+  --secondary: hsla(0, 92%, 46%, 0.655);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  align-items: center;
+}
